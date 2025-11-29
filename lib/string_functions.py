@@ -6,13 +6,11 @@ def return_string():
     """
     return "Hello, World!"
 
-def interpolate_string(base_string, insert_string):
+def interpolate_string(name):
     """
-    This function takes two strings and inserts insert_string into base_string.
-    
-    Example:
-    interpolate_string("I love {}", "Python") -> "I love Python"
+    Takes a name and inserts it into the greeting.
     """
-    return base_string.format(insert_string)
+    return f"Hello, {name}!"
+
 
     
